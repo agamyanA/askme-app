@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="/public/icons8-ask-question-16.png"><link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet"/><script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script><title>Askme</title><script defer="defer" src="bundle.48da29a157d7f7b61c2e.js"></script></head><body><div id="sidebar"><div class="mui--text-white mui--text-display1 mui--align-vertical">Askme<br><small class="author">by Alex Aghamyan</small></div></div><section id="content" class="mui-container-fluid"><div class="mui-row"><div class="mui-col-sm-10 mui-col-sm-offset-1"><br><br><div class="mui--text-black-54 mui--text-body2">Ask question</div><div class="mui-divider"></div><br><form class="mui-form" id="question-form"><div class="mui-textfield mui-textfield--float-label"><input id="question-input" required minlength="10" maxlength="256" disabled="disabled"> <label for="question-input">What's your question?</label></div><button type="submit" class="mui-btn mui-btn--raised mui-btn--primary" id="question-submit" disabled="disabled">Send</button></form><br><br><div class="mui--text-black-54 mui--text-body2">Your questions</div><div class="mui-divider"></div><br><div id="list"></div></div></div></section><script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script><script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script><script>// Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyASTYDQQGx7kLYbg_a6SW2tRkRcajRvoZ0",
+            authDomain: "askme-app-2070b.firebaseapp.com",
+            databaseURL: "https://askme-app-2070b-default-rtdb.firebaseio.com",
+            projectId: "askme-app-2070b",
+            storageBucket: "askme-app-2070b.appspot.com",
+            messagingSenderId: "55735634317",
+            appId: "1:55735634317:web:0bbeb8f9fc4fd19b1015c4"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const auth = firebase.auth()</script></body></html>
